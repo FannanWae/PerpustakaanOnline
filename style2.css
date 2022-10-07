@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background-color: #95a5a6;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.login-wrap{
+    width: 300px;
+    height: 350px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -webkit-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -moz-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+}
+h2{
+    text-align: center;
+}
+.form input{
+    margin: 10px;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.form label{
+    margin-left: 10px;
+}
+.form .btn{
+    margin-left: 10px;
+    height: 40px;
+    width: 70px;
+}
+.form p{
+    margin: 10px;
+}
+
+
+.login-wrap-pas{
+    width: 300px;
+    height: 400px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -webkit-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -moz-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+}
+
+.form_pas input{
+    margin: 10px;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.form_pas label{
+    margin-left: 10px;
+}
+.form_pas .btn{
+    margin-left: 10px;
+    height: 40px;
+    width: 70px;
+}
+.form_pas p{
+    margin: 10px;
+}

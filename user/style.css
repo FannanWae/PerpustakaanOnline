@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    background: rgba(5, 187, 96, 0.753);
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    margin-left: 75px;
+}
+.header .akun{
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.header .akun i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    min-height: 100vh;
+}
+.container nav{
+    display: flex;
+    background: #18e605;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(5, 187, 111, 0.753), rgba(1, 88, 70, 0.719));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(5, 187, 96, 0.753), rgba(1, 92, 77, 0.719));
+    box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    -webkit-box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    -moz-box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 150px;
+}
+nav ul{
+    margin-top: 10px;
+    text-align: center;
+}
+nav ul li{
+    margin: 50px;
+    list-style: none;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+nav ul li a i{
+    margin-right: 7px;
+    font-size: 20px;
+}
+nav ul hr{
+    display: none;
+}
+nav .token{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+nav.rubah{
+    width: 15%;
+    transition: 0.6s;
+}
+nav.rubah ul li a i{
+    margin-right: 7px;
+    font-size: 20px;
+    transition: 0.6s;
+}
+nav.rubah ul li a{
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.6s;
+}
+nav.rubah ul hr{
+    display: block;
+    width: 70%;
+    margin: auto;
+    transition: 0.6s;
+}
+
+nav.rubah .token{
+    transform: rotate(-180deg);
+    transition: 0.6s;
+}
+
+
+
+
+/**  HALAMAN HOMEPAGE  **/
+
+
+.dashboard{
+    width: 100%;
+    font-family: 'Dongle', sans-serif;
+}
+.cardbook{
+    width: 95%;
+    min-height: 100vh;
+    margin: 20px 0 20px 0;
+    display: grid;
+    text-transform: capitalize;
+    grid-template-rows: 170px 170px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cardbook .card{
+    width: 350px;
+    margin: 20px;
+    height: 170px;
+    background-color: white;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+.cardbook .card:hover{
+    scale: 1.1;
+}
+.cardbook .card .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.356);
+    font-size: 35px;
+}
+.cardbook .card h5{
+    margin: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.356);
+    text-align: center;
+}
+.cardbook .card h4{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.cardbook .card a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/**  HALAMAN BUKU  **/
+
+.books{
+    width: 100%;
+    min-height: 100vh;
+    text-transform: capitalize;
+    font-family: 'Dongle', sans-serif;
+}
+.books .rowbook{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    width: 95%;
+    margin: 20px auto;
+}
+.books .rowbook .boxbook{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(5, 163, 97);
+    text-align: center;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    -webkit-box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    -moz-box-shadow: 0px 6px 10px -1px rgba(61, 61, 61, 0.295);
+    transition: all .2s ease-in-out;
+}
+.text{
+    margin: 20px auto;
+    width: 90%;
+}
+.text h6{
+    color: black;
+}
+.books .rowbook .boxbook:hover{
+    scale: 1.1;
+}
+.books .rowbook .boxbook img{
+    width: 200px;
+    height: 150px;
+    border-radius: 7px;
+    border: none;
+}
+
+
+
+/**   HALAMAN TAMPIL **/
+
+
+.tampil{
+    width: 80%;
+    margin: 20px auto;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -webkit-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    -moz-box-shadow: -1px 6px 37px -1px rgba(61, 61, 61, 0.295);
+    border-radius: 10px;
+    font-family: 'Dongle', sans-serif;
+}
+.tampil .rowtampil{
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+    height: 500px;
+    color: black;
+    text-transform: none;
+}
+.tampil .rowtampil .img{
+    width: 350px;
+    height: 500px;
+}
+.imgg{
+    width: 300px;
+    height: 400px;
+}
+.tampil .rowtampil .detail{
+    width: 350px;
+}
+
+
+
+
+
+
+
+/**  HALAMAN FOOTER  **/
+
+.site-footer{
+    padding: 50px;
+    font-size: 18px;
+    font-family: 'Dongle', sans-serif;
+    color: white;
+    background-color: rgba(1, 92, 77, 0.719);
+}
+.rowfooter{
+    display: flex;
+    margin: 20px;
+}
+.social-icons{
+    display: flex;
+}
+.about{
+    width: 700px;
+}
+.kategori{
+    margin: 0 100px 0 20px;
+}
+.kategori li{
+    list-style: none;
+}
+.kategori li a{
+    color: white;
+    text-decoration: none;
+}
+.link{
+    margin: 0 10px 0 80px;
+}
+.link li{
+    list-style: none;
+}
+.link li a{
+    text-decoration: none;
+    color: white;
+}
